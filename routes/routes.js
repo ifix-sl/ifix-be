@@ -24,4 +24,8 @@ router.post("/otp-request", async (req, res) => {
 	}
 });
 
+router.post("/test", async (req, res) => {
+	res.send("test works");
+});
+
 module.exports = router;
